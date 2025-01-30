@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{date} - {title}",
+ "creation": "2025-01-31 00:19:27.752893",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_bfxc",
+  "title",
+  "date",
+  "memories",
+  "column_break_epdo",
+  "rating",
+  "location",
+  "amended_from",
+  "section_break_jedx",
+  "paper"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_bfxc",
+   "fieldtype": "Section Break",
+   "label": "Heading"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_epdo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "Today\u2019s Rating"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Footprints (Location)",
+   "options": "Footprints"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "My Diary",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "memories",
+   "fieldtype": "Attach",
+   "label": "Memories"
+  },
+  {
+   "fieldname": "section_break_jedx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paper",
+   "fieldtype": "Text Editor",
+   "label": "Paper"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-31 00:40:56.375695",
+ "modified_by": "Administrator",
+ "module": "Life Log",
+ "name": "My Diary",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "states": [],
+ "title_field": "title"
+}

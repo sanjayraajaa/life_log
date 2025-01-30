@@ -1,0 +1,136 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-31 00:53:25.605604",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "header_section",
+  "date",
+  "section_break_j3md",
+  "physical_health",
+  "energy_level",
+  "food_quality",
+  "column_break_ifvu",
+  "emotional_health",
+  "time_management",
+  "productivity",
+  "column_break_hgkj",
+  "work_satisfaction",
+  "familyrelationships",
+  "expense_control",
+  "section_break_ghgz",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_j3md",
+   "fieldtype": "Section Break",
+   "label": "Ratings"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Today Rating",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "header_section",
+   "fieldtype": "Section Break",
+   "label": "Header"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "physical_health",
+   "fieldtype": "Rating",
+   "label": "Physical Health"
+  },
+  {
+   "fieldname": "energy_level",
+   "fieldtype": "Rating",
+   "label": "Energy Level"
+  },
+  {
+   "fieldname": "food_quality",
+   "fieldtype": "Rating",
+   "label": "Food Quality"
+  },
+  {
+   "fieldname": "column_break_ifvu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "emotional_health",
+   "fieldtype": "Rating",
+   "label": "Emotional Health"
+  },
+  {
+   "fieldname": "time_management",
+   "fieldtype": "Rating",
+   "label": "Time Management"
+  },
+  {
+   "fieldname": "productivity",
+   "fieldtype": "Rating",
+   "label": "Productivity"
+  },
+  {
+   "fieldname": "column_break_hgkj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "work_satisfaction",
+   "fieldtype": "Rating",
+   "label": "Work Satisfaction"
+  },
+  {
+   "fieldname": "familyrelationships",
+   "fieldtype": "Rating",
+   "label": "Family/Relationships"
+  },
+  {
+   "fieldname": "expense_control",
+   "fieldtype": "Rating",
+   "label": "Expense Control"
+  },
+  {
+   "fieldname": "section_break_ghgz",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-31 01:02:52.415925",
+ "modified_by": "Administrator",
+ "module": "Life Log",
+ "name": "Daily Ratings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "states": [],
+ "title_field": "date"
+}

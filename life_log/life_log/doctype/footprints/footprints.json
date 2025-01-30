@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:location_name",
+ "creation": "2025-01-31 00:27:17.067248",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title_section",
+  "location_name",
+  "map_info_section",
+  "location"
+ ],
+ "fields": [
+  {
+   "fieldname": "title_section",
+   "fieldtype": "Section Break",
+   "label": "Title"
+  },
+  {
+   "fieldname": "location_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "map_info_section",
+   "fieldtype": "Section Break",
+   "label": "Map Info"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "in_list_view": 1,
+   "label": "Location",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-31 00:42:01.629196",
+ "modified_by": "Administrator",
+ "module": "Life Log",
+ "name": "Footprints",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "location_name"
+}
