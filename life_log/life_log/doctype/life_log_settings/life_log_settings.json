@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-09 21:58:43.021876",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_2_tab",
+  "customization_section",
+  "set_the_life_log_logo",
+  "privacy_section",
+  "set_privacy_password"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 2"
+  },
+  {
+   "fieldname": "customization_section",
+   "fieldtype": "Section Break",
+   "label": "Customization"
+  },
+  {
+   "description": "If you set a password for the Life Log app, all modules will require the password to open.",
+   "fieldname": "set_privacy_password",
+   "fieldtype": "Password",
+   "label": "Set Privacy Password"
+  },
+  {
+   "default": "0",
+   "description": "For Desk",
+   "fieldname": "set_the_life_log_logo",
+   "fieldtype": "Check",
+   "label": "Set the Life Log logo"
+  },
+  {
+   "fieldname": "privacy_section",
+   "fieldtype": "Section Break",
+   "label": "Privacy"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-02-09 22:04:51.881712",
+ "modified_by": "Administrator",
+ "module": "Life Log",
+ "name": "Life Log Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
