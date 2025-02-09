@@ -41,10 +41,11 @@
    "label": "Privacy"
   }
  ],
+ "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2025-02-09 22:04:51.881712",
+ "modified": "2025-02-09 22:42:43.901900",
  "modified_by": "Administrator",
  "module": "Life Log",
  "name": "Life Log Settings",
