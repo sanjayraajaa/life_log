@@ -4,6 +4,7 @@ app_publisher = "Sanjay Raja S"
 app_description = "Personal organization app"
 app_email = "thesanjayraja@gmail.com"
 app_license = "mit"
+from life_log.fixtures_data.data import f_config
 
 # Apps
 # ------------------
@@ -242,3 +243,4 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = f_config
