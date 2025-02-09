@@ -1,7 +1,6 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{date} - {title}",
  "creation": "2025-01-31 00:19:27.752893",
  "default_view": "List",
  "doctype": "DocType",
@@ -27,12 +26,16 @@
   {
    "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Title"
+   "label": "Title",
+   "reqd": 1
   },
   {
    "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Date"
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_epdo",
@@ -41,7 +44,10 @@
   {
    "fieldname": "rating",
    "fieldtype": "Rating",
-   "label": "Today\u2019s Rating"
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Today\u2019s Rating",
+   "reqd": 1
   },
   {
    "fieldname": "location",
@@ -71,17 +77,17 @@
   {
    "fieldname": "paper",
    "fieldtype": "Text Editor",
-   "label": "Paper"
+   "label": "Paper",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-31 00:40:56.375695",
+ "modified": "2025-02-09 22:25:07.457588",
  "modified_by": "Administrator",
  "module": "Life Log",
  "name": "My Diary",
- "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
